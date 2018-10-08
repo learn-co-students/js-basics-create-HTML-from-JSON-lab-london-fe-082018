@@ -92,15 +92,14 @@ handling the data.
 To get started, take a look at the files `index.js` and `movies.json`. All of
 our data is in a separate file from our JavaScript. Since it is a local file,
 the easiest way to get access to it would be to include an HTML script tag
-within `index.html`. Add the following to the file, just before adding a`index.js`
-script tag:
+within `index.html`. Add the following to the file, right down the bottom:
 
 ```html
 <script type="text/javascript" src="movies.json"></script>
 <script type="text/javascript" src="index.js"></script>
 ```
 
-Now, since `movies.json` is loaded up first, we should have access to the JSON
+Now, since `movies.json` is loaded up first, we will have access to the JSON
 content as the `movies` variable.
 
 With the script tags in place, if you open up `index.html` in your browser and
