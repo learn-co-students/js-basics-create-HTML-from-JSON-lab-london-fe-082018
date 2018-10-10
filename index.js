@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   
 var Titanic = document.getElementById('Titanic')
 Titanic.addEventListener ("clickTitanic", function() {
-  e.which === 
+  console.log = 'movies.json'
 });
 
 
